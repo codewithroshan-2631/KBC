@@ -23,6 +23,7 @@ money = 0
 for i in range(0, len(questions)):
     question = questions[i]
     print(f"\n\nQuestion for Rs.{levels[i]}")
+    print(f"{question[0]}")  # <-- This line shows the question
     print(f"A. {question[1]}   B. {question[2]}")
     print(f"C. {question[3]}   D. {question[4]}")
     
